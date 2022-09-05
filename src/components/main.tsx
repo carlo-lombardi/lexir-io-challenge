@@ -15,7 +15,7 @@ export default function Main() {
         }`}
       >
         <div className="items-center py-5 pl-2 pr-5">
-          <Image src={e.image} alt="SiWu-logo" className="border border-r-2" />
+          <Image src={e.image} alt={e.title} className="border border-r-2" />
         </div>
         <div className="w-60 lg:w-80 border-l-2 pl-3 pr-3 ">
           <h4 className="font-Lato font-bold uppercase">{e.title}</h4>
@@ -25,7 +25,7 @@ export default function Main() {
           <div className="inline-flex items-center w-full">
             <Image
               src={e.country.countryImage}
-              alt="SiWu-logo"
+              alt={e.country.countryName}
               width="15px"
               height="10px"
             />
