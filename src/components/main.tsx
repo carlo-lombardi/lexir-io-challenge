@@ -52,14 +52,14 @@ export default function Main() {
       <div className="mt-10 grid grid-rows-1 grid-flow-col justify-items-center">
         <div className="py-10 px-5 bg-backgroundColorSeeOnLexir">
           <h1 className="font-bold text-5xl font-Serif  text-titleColor">
-            Have a brand you’d like to see on{" "}
+            Have a brand you&apos;d like to see on{" "}
             <span className="text-lexirColor font-bold border-none">Lexir</span>
             ?
           </h1>
           <h4 className="my-5 text-black text-sm">
             Lexir is always looking to connect with new exciting craft brands
-            from around the world. If you have a brand in mind that you'd like
-            to see on Lexir, let us know.
+            from around the world. If you have a brand in mind that you&apos;d
+            like to see on Lexir, let us know.
           </h4>
           <button className="rounded px-12 py-3 mt-2 bg-titleColor text-white ">
             Suggest a brand
